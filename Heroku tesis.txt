@@ -1,0 +1,29 @@
+https://frozen-castle-33815.herokuapp.com/
+
+git push heroku main
+
+git config --global user.email "tomasmate.teg@gmail.com"
+git config --global user.name "Tomas Espinoza"
+
+PARA SUBIR CAMBIOS
+
+git add .
+git commit -am "make it better"
+git push heroku main
+
+//git push heroku master
+
+
+-------------------------------------------------
+en pgadming tables->tools->query tool
+
+create table users(
+	id	SERIAL PRIMARY KEY,
+	nombre	VARCHAR(100),
+	email varchar(100)
+);
+
+select * from users;
+
+INSERT INTO users(nombre,email) VALUES('Tomas Espinoza','tomas.espinoza@alu.ucm.cl');
+INSERT INTO users(nombre,email) VALUES('User1','user1@ucm.cl');
